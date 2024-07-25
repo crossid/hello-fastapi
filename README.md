@@ -1,4 +1,4 @@
-# python-fastapi-hello
+# hello-python-fastapi
 
 Python FastAPI Hello App
 
@@ -19,6 +19,6 @@ uvicorn main:app --port 5001 --reload
 Bulild and run via docker:
 
 ```bash
-docker build -t python-fastapi-hello .
-docker run --rm -p 5001:8000 python-fastapi-hello
+docker build -t hello-python-fastapi .
+docker run --rm -p 5001:8000 hello-python-fastapi
 ```
